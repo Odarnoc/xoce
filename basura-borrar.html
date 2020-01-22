@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var variable = {
+          enviaya_account: "7R8APA8J",
+          carrier_account: null,
+          api_key: "455ccd54c884157483b6dd374abe06dd",
+          shipment: {
+            shipment_type: "Package",
+            parcels: [
+              {
+                quantity: "1",
+                weight: "3",
+                weight_unit: "kg",
+                length: "10",
+                height: "20",
+                width: "30",
+                dimension_unit: "cm"
+              }
+            ]
+          },
+          origin_direction: {
+            country_code: "MX",
+            postal_code: "11550"
+          },
+          destination_direction: {
+            country_code: "MX",
+            postal_code: "01210"
+          }
+        };
+
+        $.ajax({
+          url: "https://enviaya.com.mx/api/v1/rates",
+          type: "post",
+          dataType: "json",
+          async: false,
+          cache: false,
+          contentType: "application/json",
+          success: function(data) {
+            console.log(data);
+          },
+          fail: function(xhr, textStatus, errorThrown) {
+            alert("request failed");
+          },
+          data: JSON.stringify(variable)
+        });
+      });
+    </script>
+  </head>
+  <body></body>
+</html>

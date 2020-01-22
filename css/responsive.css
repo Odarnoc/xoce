@@ -1,0 +1,177 @@
+@media only screen and (max-width: 767px) {
+
+    #linklogout {
+        display: block;
+    }
+
+    .navbar-top {
+        display: none;
+
+    }
+
+    .cards {
+        margin-bottom: 15px;
+    }
+
+    #seccards {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #tdnamecli,
+    #thnamecli {
+        text-transform: capitalize;
+        width: 160px;
+
+    }
+
+    #tdtelcli,
+    #thtelcli {
+        width: 90px;
+        text-align: center;
+    }
+
+    #tdcorreocli,
+    #thmailcli {
+        text-transform: capitalize;
+        width: 80px;
+        text-align: center;
+    }
+
+    #tddomiciliocli,
+    #thdomiciliocli {
+        text-transform: capitalize;
+        width: 100px;
+        text-align: center
+    }
+
+    #thtipocli,
+    #tdtipocli {
+        text-transform: capitalize;
+        width: 140px;
+    }
+
+    #tablaclientes {
+        margin-top: 24px;
+    }
+
+    #tableclientes tbody {
+        display: block;
+        max-height: 450px;
+        overflow: auto;
+    }
+
+    #tablecategorias tbody {
+        display: block;
+        max-height: 450px;
+        overflow: auto;
+    }
+
+    #tableproductos tbody {
+        display: block;
+        max-height: 450px;
+        overflow: auto;
+    }
+
+
+    #tablaclientes {
+        margin-top: 30px;
+    }
+
+    .card-box-cli {
+        padding: 0px;
+    }
+
+    .sec {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+    }
+
+    #tablaproductos {
+        margin-top: 30px;
+    }
+
+    #tablacategorias {
+        padding: 0px;
+    }
+
+    #thnamecat,
+    #tdnamecategorias {
+        width: 211px;
+    }
+
+    .card-box-gray {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .card-box {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .cards {
+        border-radius: 20px;
+    }
+
+    #divformlogin {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .bg-header {
+        background-position: center;
+    }
+
+    .sec-conocenos {
+        padding-top: 0px;
+        margin-top: -60px;
+    }
+
+    .sec-afiliate {
+        background-position: center;
+        background-image: url(../images/bg-negocio-mobil.jpg);
+
+    }
+
+    .div-contact-left {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .div-tel-footer {
+        padding-top: 60px;
+        padding-right: 10px;
+    }
+
+    .card-box-cli-right {
+        padding-top: 0px;
+    }
+    
+    .sec-productos-venta .container{
+        padding-bottom: 0px;
+    }
+    
+    .row-top-resumen{
+        padding-left: 0px;
+    }
+    
+    .row-body-resumen{
+        padding-left: 0px;
+    }
+    
+    .sec-checkout-address .sec{
+        padding-bottom: 0px;
+    }
+    
+    .total-resumen-mobil-left{
+        border-bottom-left-radius: 30px;
+    }
+    
+    .total-resumen-mobil-right{
+        border-bottom-right-radius: 30px;
+    }
+
+}

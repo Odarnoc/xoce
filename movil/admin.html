@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#35434C">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#35434C">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#35434C">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- Plugins -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Plugins -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+
+
+  <title>Dashboard | XOCE®</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-top">
+      <a class="navbar-brand" href="#"><img id="imgnavtop" src="images/logoxoce.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Administrador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btnnavtop" href="#">Cerrar sesión</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+  </div>
+
+
+  <section id="secnavheader">
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-header">
+        <a class="navbar-brand" href="#"><img id="imgdash" src="images/dash.png" alt=""> Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ventas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inventario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Usuarios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reportes</a>
+            </li>
+            <li id="linklogout" class="nav-item">
+              <a class="nav-link" href="#">Cerrar sesión</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+
+  <section id="seccards">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 wow fadeInUp" data-wow-delay=".2s">
+          <div id="cardclientes" class="cards">
+            <div class="imgcards">
+              <img class="imgcard" src="images/clientes.png" alt="">
+
+            </div>
+
+            <div class="infocards">
+              <p class="pcards">2,357</p>
+              <p class="pscards">Clientes</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-3 wow fadeInUp" data-wow-delay=".4s">
+          <div id="cardventasdehoy" class="cards">
+            <div class="imgcards">
+              <img class="imgcard" src="images/ventasdehoy.png" alt="">
+
+            </div>
+
+            <div class="infocards">
+              <p class="pcards">$18,999</p>
+              <p class="pscards">Ventas de hoy</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-3 wow fadeInUp" data-wow-delay=".6s">
+          <div id="cardconversiones" class="cards">
+            <div class="imgcards">
+              <img class="imgcard" src="images/conversiones.png" alt="">
+
+            </div>
+
+            <div class="infocards">
+              <p class="pcards">0.58%</p>
+              <p class="pscards">Conversiones</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-3 wow fadeInUp" data-wow-delay=".8s">
+          <div id="cardvistasdehoy" class="cards">
+            <div class="imgcards">
+              <img class="imgcard" src="images/visitasdehoy.png" alt="">
+
+            </div>
+
+            <div class="infocards">
+              <p class="pcards">1,987</p>
+              <p class="pscards">Visitas de hoy</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  <section id="secestadisticas">
+    <div class="container sec">
+      <div class="row">
+
+        <div class="col-md-12 ">
+          <center>
+            <p class="titlesection">
+              Estadisticas de ventas
+            </p>
+
+            <canvas id="myChart"></canvas>
+
+
+          </center>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="secclientes">
+    <div class="container sec">
+      <div class="row">
+        <div class="col-md-6 col-12 card-box-cli-left">
+          <hr id="hrwhite" class="wow fadeInLeft" data-wow-delay=".4s">
+          <p class="titulosec wow fadeInUp" data-wow-delay=".6s">Clientes</p>
+
+        </div>
+
+        <div class="col-md-3 col-12 card-box-search ">
+
+          <input id="inputsearchcli" type="text" class="form-control inputsearch" placeholder="Buscar cliente...">
+
+        </div>
+
+        <div class="col-md-3 col-12 card-box-cli-right">
+
+          <button type="button" data-toggle="modal" data-target="#exampleModalProAdd" class="btn btnagregarcli" role="button"><i class="fas fa-plus" style="margin-right: 6px;"></i> Agregar nuevo</button>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div id="tablaclientes" class="col-md-12 col-12 card-box-cli">
+          <!-- Tabla clientes -->
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <section id="seccategorias">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 card-box-gray wow fadeInUp" data-wow-delay=".4s">
+          <hr id="hrwhite">
+          <p id="ptitleservices">Categorias</p>
+          <p id="pstiposervicios">Ingrese el nombre de la categoria para agregar una nueva.</p>
+
+
+          <div id="formcategoriasadd">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre:</label>
+              <input type="text" class="form-control" name="nametiposervicio" id="nametiposervicio" placeholder="Categoria">
+
+            </div>
+
+            <button type="button" onclick="add_type_services();" class="btn btn-primary btncategoriasadd"><i class="fas fa-plus" style="margin-right: 6px;"></i> Agregar</button>
+
+          </div>
+
+        </div>
+
+        <div id="tablacategorias" class="col-md-6 card-box wow fadeInUp" data-wow-delay=".6s">
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+  <section id="secproductos">
+    <div class="container sec">
+      <div class="row">
+        <div class="col-md-6 col-12 card-box-cli-left">
+          <hr id="hrwhite" class="wow fadeInLeft" data-wow-delay=".4s">
+          <p class="titulosec wow fadeInUp" data-wow-delay=".6s">Productos</p>
+
+        </div>
+
+        <div class="col-md-3 col-12 card-box-search ">
+
+          <input id="inputsearchcli" type="text" class="form-control inputsearch" placeholder="Buscar producto...">
+
+        </div>
+
+        <div class="col-md-3 col-12 card-box-cli-right">
+
+          <button type="button" data-toggle="modal" data-target="#exampleModalProAdd" class="btn btnagregarcli" role="button"><i class="fas fa-plus" style="margin-right: 6px;"></i> Agregar nuevo</button>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div id="tablaproductos" class="col-md-12 col-12 card-box-cli">
+          <!-- Tabla clientes -->
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <div style="padding-bottom: 80px;"></div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div>
+            <p id="pfooter">© Todos los derechos son reservados XOCE® 2019</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <script src="js/wow.js"></script>
+  <script src="js/Chart.js"></script>
+  <script src="js/chart-ventas.js"></script>
+  <script src="js/clientes.js"></script>
+  <script src="js/categorias.js"></script>
+  <script src="js/productos.js"></script>
+
+
+  <script>
+    new WOW().init();
+  </script>
+
+
+</body></html>
